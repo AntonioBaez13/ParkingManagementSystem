@@ -15,7 +15,7 @@ public class EntranceA
 		int portNumber = 4444;
 		int carsWaiting = 0;
 
-		// connect to the server and set the input and output variables
+		//connect to the server and set the input and output variables
 		try {
 			parkingServerSocket = new Socket("localhost", portNumber);
 			out = new PrintWriter(parkingServerSocket.getOutputStream(), true);
